@@ -15,8 +15,8 @@ SafeCityAI is an AI-powered traffic violation detection system built for the Saf
 
 The model detects helmet violations on real CCTV footage with bounding boxes drawn on every frame in real time.
 
-- **With Helmet** — green bounding box
-- **Without Helmet** — red bounding box + violation alert
+- **With Helmet** — Blue bounding box
+- **Without Helmet** — Light Blue bounding box + violation alert
 
 ---
 
@@ -32,7 +32,7 @@ The model detects helmet violations on real CCTV footage with bounding boxes dra
 | Epochs | 50 |
 | Architecture | YOLOv5s (Transfer Learning from COCO) |
 
-![Training Results](results.png)
+![Training Results](Screenshot (275).png)
 
 ---
 
@@ -127,7 +127,7 @@ Features:
 
 **1. Clone the repo:**
 ```bash
-git clone https://github.com/yourusername/SafeCityAI-Helmet-Detection
+git clone https://github.com/PrajwalDhoke/SafeCityAI-Helmet-Detection
 cd SafeCityAI-Helmet-Detection
 ```
 
